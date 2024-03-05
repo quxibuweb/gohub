@@ -9,6 +9,7 @@ package bootstrap
 
 import (
 	"github.com/gin-gonic/gin"
+	"gohub/app/http/middlewares"
 	"gohub/routes"
 	"net/http"
 	"strings"
@@ -25,8 +26,10 @@ func SetupRoute(router *gin.Engine) {
 
 // TODO 注册全局中间键
 func registerGlobalMiddleWare(router *gin.Engine) {
-	//
-	router.Use(gin.Logger(), gin.Recovery())
+	router.Use(
+		middlewares.Logger(),
+		gin.Recovery(),
+	)
 }
 
 // TODO: 处理404异常
