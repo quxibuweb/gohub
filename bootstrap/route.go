@@ -24,11 +24,11 @@ func SetupRoute(router *gin.Engine) {
 	setup404Handler(router)
 }
 
-// TODO 注册全局中间键
+// TODO: 注册全局中间键 这里使用的是自己创建的中间键Logger() Recovery()方法 重写
 func registerGlobalMiddleWare(router *gin.Engine) {
 	router.Use(
 		middlewares.Logger(),
-		gin.Recovery(),
+		middlewares.Recovery(),
 	)
 }
 
