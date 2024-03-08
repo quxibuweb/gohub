@@ -26,3 +26,10 @@ Tag  代码最后提交为前五章完成后
 #### 使用 Postman 发起 Authorization:Bearer xxxxx 标头的请求；
 #### Auth 中间件，授权才能操作；
 #### Guest 中间件，只允许游客操作；
+###　第十章学习练习
+#### 通过手机号找回密码；
+#### 通过邮箱找回密码；
+#### 全局限流中间件；
+#### 针对单个路由的限流；
+#### 使用 Postman 查看 Header 信息；
+#### AuthJWT 和 GuestJWT 的使用。
