@@ -2,10 +2,10 @@
 package routes
 
 import (
+	"github.com/gin-gonic/gin"
+	controllers "gohub/app/http/controllers/api/v1"
 	"gohub/app/http/controllers/api/v1/auth"
 	"gohub/app/http/middlewares"
-
-	"github.com/gin-gonic/gin"
 )
 
 // RegisterAPIRoutes 注册 API 相关路由
@@ -49,6 +49,10 @@ func RegisterAPIRoutes(r *gin.Engine) {
 			authGroup.POST("/verify-codes/email", middlewares.LimitPerRoute("20-H"), vcc.SendUsingEmail)
 			// 图片验证码
 			authGroup.POST("/verify-codes/captcha", middlewares.LimitPerRoute("50-H"), vcc.ShowCaptcha)
+
+			uc := new(controllers.UsersController)
+			// 获取当前用户
+			v1.GET("/user", middlewares.AuthJWT(), uc.CurrentUser)
 		}
 	}
 }
