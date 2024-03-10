@@ -3,8 +3,8 @@ package middlewares
 
 import (
 	"bytes"
-	"gohub/pkg/helpers"
-	"gohub/pkg/logger"
+	"quxibu/pkg/helpers"
+	"quxibu/pkg/logger"
 	"io"
 	"time"
 

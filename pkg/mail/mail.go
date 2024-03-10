@@ -2,7 +2,7 @@
 package mail
 
 import (
-	"gohub/pkg/config"
+	"quxibu/pkg/config"
 	"sync"
 )
 

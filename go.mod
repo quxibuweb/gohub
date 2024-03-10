@@ -1,4 +1,4 @@
-module gohub
+module quxibu
 
 go 1.22.0
 

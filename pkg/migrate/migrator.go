@@ -2,10 +2,10 @@
 package migrate
 
 import (
-	"gohub/pkg/console"
-	"gohub/pkg/database"
-	"gohub/pkg/file"
 	"os"
+	"quxibu/pkg/console"
+	"quxibu/pkg/database"
+	"quxibu/pkg/file"
 
 	"gorm.io/gorm"
 )

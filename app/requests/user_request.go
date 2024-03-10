@@ -1,8 +1,8 @@
 package requests
 
 import (
-	"gohub/app/requests/validators"
-	"gohub/pkg/auth"
+	"quxibu/app/requests/validators"
+	"quxibu/pkg/auth"
 	"mime/multipart"
 
 	"github.com/gin-gonic/gin"

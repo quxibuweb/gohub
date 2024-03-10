@@ -1,7 +1,7 @@
 package config
 
 import (
-	"gohub/pkg/config"
+	"quxibu/pkg/config"
 )
 
 func init() {

@@ -2,8 +2,8 @@
 package link
 
 import (
-    "gohub/app/models"
-    "gohub/pkg/database"
+	"quxibu/app/models"
+	"quxibu/pkg/database"
 )
 
 type Link struct {

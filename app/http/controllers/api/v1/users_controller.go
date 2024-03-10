@@ -2,12 +2,12 @@ package v1
 
 import (
 	"github.com/gin-gonic/gin"
-	"gohub/app/models/user"
-	"gohub/app/requests"
-	"gohub/pkg/auth"
-	"gohub/pkg/config"
-	"gohub/pkg/file"
-	"gohub/pkg/response"
+	"quxibu/app/models/user"
+	"quxibu/app/requests"
+	"quxibu/pkg/auth"
+	"quxibu/pkg/config"
+	"quxibu/pkg/file"
+	"quxibu/pkg/response"
 )
 
 type UsersController struct {

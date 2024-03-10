@@ -4,7 +4,7 @@ package requests
 import (
 	"github.com/gin-gonic/gin"
 	"github.com/thedevsaddam/govalidator"
-	"gohub/app/requests/validators"
+	"quxibu/app/requests/validators"
 )
 
 type SignupPhoneExistRequest struct {

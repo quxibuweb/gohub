@@ -2,7 +2,7 @@ package make
 
 import (
 	"fmt"
-	"gohub/pkg/console"
+	"quxibu/pkg/console"
 	"strings"
 
 	"github.com/spf13/cobra"

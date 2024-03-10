@@ -2,7 +2,7 @@
 package app
 
 import (
-	"gohub/pkg/config"
+	"quxibu/pkg/config"
 	"time"
 )
 

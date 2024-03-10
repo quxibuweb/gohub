@@ -2,8 +2,8 @@
 package policies
 
 import (
-	"gohub/app/models/topic"
-	"gohub/pkg/auth"
+	"quxibu/app/models/topic"
+	"quxibu/pkg/auth"
 
 	"github.com/gin-gonic/gin"
 )

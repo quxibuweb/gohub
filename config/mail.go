@@ -1,7 +1,7 @@
 // Package config 站点配置信息
 package config
 
-import "gohub/pkg/config"
+import "quxibu/pkg/config"
 
 func init() {
 	config.Add("mail", func() map[string]interface{} {
@@ -16,8 +16,8 @@ func init() {
 			},
 
 			"from": map[string]interface{}{
-				"address": config.Env("MAIL_FROM_ADDRESS", "gohub@example.com"),
-				"name":    config.Env("MAIL_FROM_NAME", "Gohub"),
+				"address": config.Env("MAIL_FROM_ADDRESS", "quxibu@example.com"),
+				"name":    config.Env("MAIL_FROM_NAME", "quxibu"),
 			},
 		}
 	})

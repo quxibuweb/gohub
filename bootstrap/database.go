@@ -3,9 +3,9 @@ package bootstrap
 import (
 	"errors"
 	"fmt"
-	"gohub/pkg/config"
-	"gohub/pkg/database"
-	"gohub/pkg/logger"
+	"quxibu/pkg/config"
+	"quxibu/pkg/database"
+	"quxibu/pkg/logger"
 	"time"
 
 	"gorm.io/driver/mysql"

@@ -2,10 +2,10 @@
 package topic
 
 import (
-    "gohub/app/models"
-    "gohub/app/models/category"
-    "gohub/app/models/user"
-    "gohub/pkg/database"
+	"quxibu/app/models"
+	"quxibu/app/models/category"
+	"quxibu/app/models/user"
+	"quxibu/pkg/database"
 )
 
 type Topic struct {

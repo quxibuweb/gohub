@@ -2,9 +2,9 @@
 package user
 
 import (
-	"gohub/app/models"
-	"gohub/pkg/database"
-	"gohub/pkg/hash"
+	"quxibu/app/models"
+	"quxibu/pkg/database"
+	"quxibu/pkg/hash"
 )
 
 // User 用户模型

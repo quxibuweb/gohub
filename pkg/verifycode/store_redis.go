@@ -1,9 +1,9 @@
 package verifycode
 
 import (
-	"gohub/pkg/app"
-	"gohub/pkg/config"
-	"gohub/pkg/redis"
+	"quxibu/pkg/app"
+	"quxibu/pkg/config"
+	"quxibu/pkg/redis"
 	"time"
 )
 

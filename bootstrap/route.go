@@ -9,8 +9,8 @@ package bootstrap
 
 import (
 	"github.com/gin-gonic/gin"
-	"gohub/app/http/middlewares"
-	"gohub/routes"
+	"quxibu/app/http/middlewares"
+	"quxibu/routes"
 	"net/http"
 	"strings"
 )

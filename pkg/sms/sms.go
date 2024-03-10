@@ -2,7 +2,7 @@
 package sms
 
 import (
-	"gohub/pkg/config"
+	"quxibu/pkg/config"
 	"sync"
 )
 

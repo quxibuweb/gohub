@@ -2,7 +2,7 @@
 package response
 
 import (
-	"gohub/pkg/logger"
+	"quxibu/pkg/logger"
 	"net/http"
 
 	"github.com/gin-gonic/gin"

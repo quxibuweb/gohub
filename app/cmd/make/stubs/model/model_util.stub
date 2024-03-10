@@ -1,9 +1,9 @@
 package {{PackageName}}
 
 import (
-    "gohub/pkg/app"
-        "gohub/pkg/database"
-        "gohub/pkg/paginator"
+    "quxibu/pkg/app"
+        "quxibu/pkg/database"
+        "quxibu/pkg/paginator"
         "github.com/gin-gonic/gin"
 )
 

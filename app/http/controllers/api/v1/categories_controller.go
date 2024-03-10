@@ -1,9 +1,9 @@
 package v1
 
 import (
-	"gohub/app/models/category"
-	"gohub/app/requests"
-	"gohub/pkg/response"
+	"quxibu/app/models/category"
+	"quxibu/app/requests"
+	"quxibu/pkg/response"
 
 	"github.com/gin-gonic/gin"
 )

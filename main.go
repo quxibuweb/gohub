@@ -3,13 +3,13 @@ package main
 import (
 	"fmt"
 	"github.com/spf13/cobra"
-	"gohub/app/cmd"
-	"gohub/app/cmd/make"
-	"gohub/bootstrap"
-	btsConig "gohub/config"
-	"gohub/pkg/config"
-	"gohub/pkg/console"
 	"os"
+	"quxibu/app/cmd"
+	"quxibu/app/cmd/make"
+	"quxibu/bootstrap"
+	btsConig "quxibu/config"
+	"quxibu/pkg/config"
+	"quxibu/pkg/console"
 )
 
 func init() {
@@ -21,7 +21,7 @@ func main() {
 
 	// 应用的主入口，默认调用 cmd.CmdServe 命令
 	var rootCmd = &cobra.Command{
-		Use:   "Gohub",
+		Use:   "quxibu",
 		Short: "A simple forum project",
 		Long:  `Default will run "serve" command, you can use "-h" flag to see all subcommands`,
 

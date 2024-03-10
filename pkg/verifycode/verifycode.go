@@ -3,13 +3,13 @@ package verifycode
 
 import (
 	"fmt"
-	"gohub/pkg/app"
-	"gohub/pkg/config"
-	"gohub/pkg/helpers"
-	"gohub/pkg/logger"
-	"gohub/pkg/mail"
-	"gohub/pkg/redis"
-	"gohub/pkg/sms"
+	"quxibu/pkg/app"
+	"quxibu/pkg/config"
+	"quxibu/pkg/helpers"
+	"quxibu/pkg/logger"
+	"quxibu/pkg/mail"
+	"quxibu/pkg/redis"
+	"quxibu/pkg/sms"
 	"strings"
 	"sync"
 )

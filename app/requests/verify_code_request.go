@@ -1,8 +1,8 @@
 package requests
 
 import (
-	"gohub/app/requests/validators"
-	"gohub/pkg/captcha"
+	"quxibu/app/requests/validators"
+	"quxibu/pkg/captcha"
 
 	"github.com/gin-gonic/gin"
 	"github.com/thedevsaddam/govalidator"

@@ -2,11 +2,11 @@ package link
 
 import (
 	"github.com/gin-gonic/gin"
-	"gohub/pkg/app"
-	"gohub/pkg/cache"
-	"gohub/pkg/database"
-	"gohub/pkg/helpers"
-	"gohub/pkg/paginator"
+	"quxibu/pkg/app"
+	"quxibu/pkg/cache"
+	"quxibu/pkg/database"
+	"quxibu/pkg/helpers"
+	"quxibu/pkg/paginator"
 	"time"
 )
 

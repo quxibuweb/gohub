@@ -4,8 +4,8 @@ package auth
 import (
 	"errors"
 	"github.com/gin-gonic/gin"
-	"gohub/app/models/user"
-	"gohub/pkg/logger"
+	"quxibu/app/models/user"
+	"quxibu/pkg/logger"
 )
 
 // Attempt 尝试登录

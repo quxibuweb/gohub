@@ -3,10 +3,10 @@ package routes
 
 import (
 	"github.com/gin-gonic/gin"
-	controllers "gohub/app/http/controllers/api/v1"
-	"gohub/app/http/controllers/api/v1/auth"
-	"gohub/app/http/middlewares"
-	"gohub/pkg/config"
+	controllers "quxibu/app/http/controllers/api/v1"
+	"quxibu/app/http/controllers/api/v1/auth"
+	"quxibu/app/http/middlewares"
+	"quxibu/pkg/config"
 )
 
 // RegisterAPIRoutes 注册 API 相关路由

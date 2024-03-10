@@ -2,9 +2,9 @@ package topic
 
 import (
 	"github.com/gin-gonic/gin"
-	"gohub/pkg/app"
-	"gohub/pkg/database"
-	"gohub/pkg/paginator"
+	"quxibu/pkg/app"
+	"quxibu/pkg/database"
+	"quxibu/pkg/paginator"
 	"gorm.io/gorm/clause"
 )
 

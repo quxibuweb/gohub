@@ -2,7 +2,7 @@ package factories
 
 import (
 	"github.com/bxcodec/faker/v3"
-	"gohub/app/models/link"
+	"quxibu/app/models/link"
 )
 
 func MakeLinks(times int) []link.Link {

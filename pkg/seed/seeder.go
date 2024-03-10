@@ -2,8 +2,8 @@
 package seed
 
 import (
-	"gohub/pkg/console"
-	"gohub/pkg/database"
+	"quxibu/pkg/console"
+	"quxibu/pkg/database"
 	"gorm.io/gorm"
 )
 

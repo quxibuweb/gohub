@@ -4,7 +4,7 @@ package validators
 import (
 	"errors"
 	"fmt"
-	"gohub/pkg/database"
+	"quxibu/pkg/database"
 	"strconv"
 	"strings"
 	"unicode/utf8"

@@ -3,9 +3,9 @@ package jwt
 
 import (
 	"errors"
-	"gohub/pkg/app"
-	"gohub/pkg/config"
-	"gohub/pkg/logger"
+	"quxibu/pkg/app"
+	"quxibu/pkg/config"
+	"quxibu/pkg/logger"
 	"strings"
 	"time"
 

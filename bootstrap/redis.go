@@ -2,8 +2,8 @@ package bootstrap
 
 import (
 	"fmt"
-	"gohub/pkg/config"
-	"gohub/pkg/redis"
+	"quxibu/pkg/config"
+	"quxibu/pkg/redis"
 )
 
 // SetupRedis 初始化 Redis
